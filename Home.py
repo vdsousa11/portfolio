@@ -11,7 +11,22 @@ with col1:
 with col2:
     st.title("Francisco Corte-Real")
     content = """
-    Teste, para depois criar um texto
+    Desde 2000 que estou envolvido em produção multímédia e informática
+     a diversos níveis, começando como técnico de som em eventos,
+      até à programação em várias línguagens, passando pela fotografia,
+       vídeo, web design, etc... Incluindo também responsável de compras
+        em empresa de informática de renome. Por razões pessoais fui mantendo
+         durante os últimos anos a profissão de vigilante à medida que fui
+          realizando trabalhos como freelancer. Após algumas formações na área
+           de multimédia, em 2006/2007 ingressei no curso de Novas Tecnologias
+            da Comunicação na UA, tendo, infelizmente, concluído apenas pouco
+             mais de metade do curso. A nível de software, para além de conhecimentos
+              em toda a gama Adobe, tenho também conhecimentos em alguns dos software’s
+               gratuitos existentes, assim como software’s de CAD, 2D e 3D, e também
+                algumas linguagens de programação. Neste momento procuro trabalho full-time,
+                 tendo me dedicado nos últimos tempos a estudar a linguagem Python
+                  e a sua integração em bases dados SQL e API’s, conhecer as suas principais
+                   frameworks e tools assim como a integração dos mesmos.
     
     """
     st.info(content)
