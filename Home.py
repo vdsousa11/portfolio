@@ -14,13 +14,14 @@ with col2:
     Desde 2000 que estou envolvido em produção multímédia e informática
      a diversos níveis, começando como técnico de som em eventos,
       até à programação em várias línguagens, passando pela fotografia,
-       vídeo, web design, etc... Incluindo também responsável de compras
-        em empresa de informática de renome. Por razões pessoais fui mantendo
+       vídeo, web design, etc...
+          Por razões pessoais fui mantendo
          durante os últimos anos a profissão de vigilante à medida que fui
           realizando trabalhos como freelancer. Após algumas formações na área
            de multimédia, em 2006/2007 ingressei no curso de Novas Tecnologias
             da Comunicação na UA, tendo, infelizmente, concluído apenas pouco
-             mais de metade do curso. A nível de software, para além de conhecimentos
+             mais de metade do curso. 
+             A nível de software, para além de conhecimentos
               em toda a gama Adobe, tenho também conhecimentos em alguns dos software’s
                gratuitos existentes, assim como software’s de CAD, 2D e 3D, e também
                 algumas linguagens de programação. Neste momento procuro trabalho full-time,
@@ -44,11 +45,13 @@ with col3:
         st.header(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
-        st.write(f"[Source Code]({row['url']})")
+        st.write(f"[Link for app]({row['url']})")
+        st.write(f"[Github repository]({row['github']})")
 
 with col4:
     for index, row in df[10:].iterrows():
         st.header(row["title"])
         st.write(row["description"])
         st.image("images/" + row["image"])
-        st.write(f"[Source Code]({row['url']})")
+        st.write(f"[Link for app]({row['url']})")
+        st.write(f"[Github repository]({row['github']})")
