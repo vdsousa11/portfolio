@@ -47,7 +47,7 @@ with col3:
     for index, row in df[:10].iterrows():
         st.header(row["title"])
         st.write(row["description"])
-        st.image("images/" + row["image"])
+        st.image("Images/" + row["image"])
         st.write(f"[Link for app]({row['url']})")
         st.write(f"[Github repository]({row['github']})")
 
@@ -55,6 +55,6 @@ with col4:
     for index, row in df[10:].iterrows():
         st.header(row["title"])
         st.write(row["description"])
-        st.image("images/" + row["image"])
+        st.image("Images/" + row["image"])
         st.write(f"[Link for app]({row['url']})")
         st.write(f"[Github repository]({row['github']})")
