@@ -33,9 +33,12 @@ with col2:
     st.info(content)
 
 
-info1 = ("Below you can find some of the apps I have built in Python. Feel free to contact me.")
+info1 = ("Below you can find some of the apps I have built in Python trought some tutorials I have made. "
+         "Some of the apps or code doesn't have web app, but you can check the code on 'GitHub'. Feel free to contact me.")
+info2 = ("Unfourtanlly some of the apps haven't been added yet.")
 
 st.info(info1)
+st.info(info2)
 
 col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 
